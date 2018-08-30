@@ -1,0 +1,29 @@
+#blueFigure1 {
+  width: 4%;
+  right: 1%;
+  bottom: 0;
+  position: absolute;
+  fill-rule: evenodd;
+  clip-rule: evenodd;
+  stroke-linejoin: round;
+  stroke-miterlimit: 1.41421;
+}
+
+#blueFigure2 {
+  fill: #0038b3
+}
+
+#yellowFigure1 {
+  width: 4%;
+  right: 10%;
+  top: 0;
+  position: absolute;
+  fill-rule: evenodd;
+  clip-rule: evenodd;
+  stroke-linejoin: round;
+  stroke-miterlimit: 1.41421;
+}
+
+#yellowFigure2 {
+  fill: #ffe049;
+}

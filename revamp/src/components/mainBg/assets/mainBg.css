@@ -3,3 +3,42 @@
   height: 80vh;
   background-color: black;
 }
+
+#vid {
+  position: absolute;
+  width: 70%;
+  top: 2%;
+  left: 15%;
+}
+
+#mainBlueFigure1 {
+  z-index: 10;
+  width: 25%;
+  top: 8%;
+  left: 0;
+  position: absolute;
+  fill-rule: evenodd;
+  clip-rule: evenodd;
+  stroke-linejoin: round;
+  stroke-miterlimit: 1.41421;
+}
+
+#mainBlueFigure2 {
+  fill: #0038b3;
+}
+
+#mainYellowFigure1 {
+  z-index: 10;
+  width: 10%;
+  bottom: 25%;
+  right: 14.9%;
+  position: absolute;
+  fill-rule: evenodd;
+  clip-rule: evenodd;
+  stroke-linejoin: round;
+  stroke-miterlimit: 1.41421;
+}
+
+#mainYellowFigure2 {
+  fill: #ffe033;
+}
