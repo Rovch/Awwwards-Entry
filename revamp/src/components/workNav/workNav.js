@@ -19,7 +19,6 @@ export default class WorkNav extends Component {
   }
 
   render() {
-    const hoverClass = this.state.isHovered ? "pulse animated" : "";
     let bgImage;
     switch (this.state.isHovered) {
       case "fnhub":

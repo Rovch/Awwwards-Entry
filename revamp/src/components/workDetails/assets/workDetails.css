@@ -1,6 +1,7 @@
 /* -------------- LinkWrapper -------------- */
 
 #linkWrapper {
+  margin-top: 5%;
   width: 30vw;
   display: flex;
 }
@@ -8,6 +9,7 @@
 /* -------------- home -------------- */
 
 #homeLink {
+  margin-left: 16%;
   order: 2;
   display: flex;
   cursor: pointer;
@@ -16,11 +18,20 @@
 }
 
 #homeLinkText {
-  color: white;
-  font-size: 2vw;
+  color: black;
+  font-size: 1.8vw;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
   order: 2;
+  text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
+}
+
+#homeLinkText:hover {
+  font-size: 1.8vw;
+  transition-duration: 300ms;
+  transition-timing-function: ease-out;
+  color: #0F3DAC;
+  text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
 }
 
 .home_link_true {
@@ -50,28 +61,36 @@
 
 #link_1_home {
   align-self: center;
-  order: 2;
+  order: 1;
   width: 1vw;
-  border-bottom: 2px solid black;
+  border-bottom: 2px solid white;
 }
 
 #link_3_home {
   align-self: center;
-  order: 2;
+  order: 1;
+  width: 1vw;
+  border-bottom: 2px solid white;
+}
+
+#link_2_home {
+  align-self: center;
+  order: 1;
   width: 1vw;
   border-bottom: 2px solid white;
 }
 
 #link_4_home {
   align-self: center;
-  order: 2;
+  order: 1;
   width: 1vw;
-  border-bottom: 2px solid white;
+  border-bottom: 2px solid black;
 }
 
 /* -------------- contact -------------- */
 
 #contactLink {
+  margin-left: 5%;
   order: 1;
   display: flex;
   cursor: pointer;
@@ -80,11 +99,20 @@
 }
 
 #contactLinkText {
-  color: white;
-  font-size: 2vw;
+  color: black;
+  font-size: 1.8vw;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
-  order: 2;
+  order: 1;
+  text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
+}
+
+#contactLinkText:hover {
+  font-size: 1.8vw;
+  transition-duration: 300ms;
+  transition-timing-function: ease-out;
+  color: yellow;
+  text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
 }
 
 .contact_link_true {
@@ -120,21 +148,98 @@
 
 #link_1_contact {
   align-self: center;
-  order: 1;
+  order: 2;
+  width: 1vw;
+  border-bottom: 2px solid black;
+}
+
+#link_2_contact {
+  align-self: center;
+  order: 2;
   width: 1vw;
   border-bottom: 2px solid white;
 }
 
 #link_3_contact {
   align-self: center;
-  order: 1;
+  order: 2;
   width: 1vw;
   border-bottom: 2px solid white;
 }
 
 #link_4_contact {
   align-self: center;
-  order: 1;
+  order: 2;
   width: 1vw;
-  border-bottom: 2px solid black;
+  border-bottom: 2px solid white;
+}
+
+/* -------------- details -------------- */
+
+#details {
+  margin-top: 70%;
+  flex-direction: column;
+  display: flex;
+}
+
+/* ------ break ------ */
+
+#row1 {
+  margin-left: 12%;
+  display: flex;
+}
+
+#detName {
+  font-size: 1.5vw;
+  font-weight: bold;
+  color: white;
+}
+
+/* ------ break ------ */
+
+#row2 {
+  margin-top: 8%;
+  margin-left: 12%;
+  display: flex;
+}
+
+#yearTag {
+  font-size: 1vw;
+  color: #bbbbbb;
+}
+
+#detYear {
+  margin-left: 2%;
+  color: white;
+}
+
+#splitter {
+  margin-left: 2%;
+  color: #bbbbbb;
+}
+
+#purposeTag {
+  margin-left: 2%;
+  font-size: 1vw;
+  color: #bbbbbb;
+}
+
+#detPurpose {
+  margin-left: 2%;
+  color: white;
+}
+
+/* ------ break ------ */
+
+#row3 {
+  margin-top: 5%;
+  margin-left: 12%;
+  display: flex;
+}
+
+#detBio {
+  font-size: 1.1vw;
+  font-weight: 100;
+  text-align: start;
+  color: white;
 }
