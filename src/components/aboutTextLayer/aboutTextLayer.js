@@ -36,12 +36,8 @@ export default class AboutTextLayer extends Component {
         <div id="trade"> Full-stack Web Developer</div>
         <div id="est"> 2017</div>
 
-        <div id="paragraph"> The dog walked across the street to get a hotdog, once he was there he bought
-          ten sets of fries. Wow! That is a-lot of fries where do you acquire such amount of fries?
-          Well funny you ask because I just told you boiiiii. Across the street is the only place these
-          things are sold. So, next time before you ask a question make sure to do your research and
-          reference what you previously read. That would truly speed up the process here where I Work you
-          know? Jeez man please get a grip or you will get hurt next time duh stupid boi you smell like cheese.
+        <div id="paragraph"> I’m a web developer living in Houston, Texas. I spend my days with my hands in many different areas of web development from back end programming (sql, mongo, express, and node) to front end engineering (HTML, CSS, jQuery/Javascript, React, and handlebars ), digital accessibility, user experience and visual design.
+        I’m extremely passionate about web development and design in all it’s forms and helping small businesses improve their online presence. Aside from web development, I enjoy spending my time with my girlfriend, working on my cars, building pcs, and taking photos.
         </div>
       </div>
     )

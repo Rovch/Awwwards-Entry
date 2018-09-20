@@ -4,8 +4,7 @@ export default class AboutImage extends Component {
   render() {
     return (
       <div>
-        <div id="aboutImage"></div>
-
+        <img id="aboutImage" src={require("./assets/FullSizeRenderOfMe.png")} />
       </div>
     )
   }

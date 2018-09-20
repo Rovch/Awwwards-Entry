@@ -52,7 +52,6 @@ export default class WorkNav extends Component {
               <div id="zeroTwo">02</div>
             </div>
 
-
             <div class="workNavText" id="huddleText" onMouseEnter={() => { this.handleHover("huddle") }}>
               <div id={this.state.isHovered != "huddle" ? `huddle_false` : `huddle_true`}>HUDDLE</div>
               <div id="zeroThree">03</div>
@@ -69,7 +68,7 @@ export default class WorkNav extends Component {
         <div> {bgImage}</div>
 
         <div id="workNavBg2">
-          <WorkDetails loadFunc={this.props.loadFunc} current={this.state.isHovered} />
+          <WorkDetails loadFunc={this.props.loadFunc} current={this.state.isHovered} handleSwitch={() => this.props.handleSwitch()} />
         </div>
       </div>
     )
